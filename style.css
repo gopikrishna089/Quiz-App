@@ -1,0 +1,101 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #5DADE2; /* Softer blue for the header */
+    width: 100%;
+    padding: 10px 0; /* Reduced padding for a thinner header */
+    text-align: center;
+    color: white;
+    font-size: 24px; /* Slightly smaller font size */
+    font-weight: bold;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz Container Styling */
+.quiz-container {
+    background-color: white; /* Clean white background for the quiz */
+    padding: 30px; /* Increased padding for a bigger box */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+    border-radius: 12px; /* Smooth corners */
+    text-align: center;
+    width: 450px; /* Increased width for the container */
+}
+
+/* Question Styling */
+#question {
+    color: #2E86C1; /* Blue color for the question text */
+    font-size: 22px; /* Larger font for the question */
+    margin-bottom: 20px;
+}
+
+/* Remove Dots from Options */
+#options {
+    list-style-type: none; /* Remove bullet points from options */
+    padding: 0;
+    margin: 0;
+}
+
+/* Option Buttons */
+.option-btn {
+    background-color: #5499C7; /* Medium blue color for the options */
+    color: white;
+    padding: 15px; /* Increased padding for bigger buttons */
+    margin: 12px 0;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px; /* Larger font size for options */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #85C1E9; /* Light blue hover effect */
+}
+
+/* Correct and Incorrect Answer Colors */
+.option-btn.correct {
+    background-color: #2ECC71; /* Green for correct answer */
+}
+
+.option-btn.incorrect {
+    background-color: #E74C3C; /* Red for incorrect answer */
+}
+
+/* Next Button Styling */
+#next-btn {
+    margin-top: 25px;
+    padding: 15px; /* Increased padding for bigger button */
+    background-color: #2980B9; /* Darker blue for the Next button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-btn:hover {
+    background-color: #1F618D; /* Darker blue hover effect */
+}
+
+/* Result Box Styling */
+#result-box {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
